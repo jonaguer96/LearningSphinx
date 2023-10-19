@@ -1,0 +1,35 @@
+{# _templates/layout.html #}
+{%- extends "!layout.html" %}
+
+{%- block extrahead %}
+    {{ super() }}
+    <style>
+        /* Add your custom CSS for the banner here */
+        .static-banner {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background-color: #f2f2f2;
+            padding: 0;
+            text-align: center;
+            z-index: 1001;
+        }
+        .navbar {
+            z-index: 1000;
+            top: 90px;
+        }
+    </style>
+    <div class="static-banner">
+        <!-- Add your banner content here -->
+        <p style="color: black">lockheed martin proprietary information
+            <br> Export Number
+            <br>Something Else
+        </p>
+    </div>    
+    {{ super() }}
+{%- endblock %}
+
+{%- block body %}
+    {{ super() }}
+{%- endblock %}
