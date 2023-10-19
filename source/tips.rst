@@ -1,3 +1,4 @@
+:html_theme.si
 .. _tips:
 
 Tips
@@ -35,5 +36,4 @@ one asterisk: *text* for emphasis (italics),
 two asterisks: **text** for strong emphasis (boldface), and
 
 backquotes: ``text`` for code samples.
-
 

@@ -19,6 +19,8 @@ extensions = []
 templates_path = ['_templates']
 exclude_patterns = []
 html_static_path = ['_static']
+html_css_files = ['custom_styles.css']
+html_style = 'custom_styles.css'
 
 
 
@@ -27,7 +29,7 @@ html_static_path = ['_static']
 
 html_theme = 'pydata_sphinx_theme'
 html_theme_options = {
-    "navbar_align": "content"
+
 }
 html_sidebars = {
     'beforeyoubegin': [

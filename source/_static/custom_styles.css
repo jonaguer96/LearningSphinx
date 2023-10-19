@@ -1,0 +1,20 @@
+.wy-nav-content-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.wy-nav-side {
+    position: fixed;
+    top: 50%; /* Adjust the top position if needed */
+    transform: translateY(-50%);
+    right: 0;
+    width: 20%; /* Adjust the width as needed */
+    max-width: 300px; /* Set a maximum width if necessary */
+    z-index: 999; /* Ensure the z-index is higher than the content */
+}
+
+/* Adjust the properties for the table of contents (TOC) */
+.wy-nav-content {
+    margin-top: 25%; /* Adjust the margin-top to move the TOC down by 25 percent */
+}
